@@ -1,0 +1,31 @@
+$font-family: Roboto-Regular
+  
+@mixin text_reset
+  padding: 0
+  margin: 0
+
+.title
+  @include text_reset
+  &__main
+    text-align: center
+    letter-spacing: 6px
+    font-size: min(24px, 5vw)
+    font-weight: 700
+    text-transform: uppercase
+    line-height: 2
+    color: $notification-color
+    margin-bottom: min(50px, 10vw)
+  &__menu
+    margin: 20px 0 50px
+
+.subtitle
+  @include text_reset
+  &__link
+    letter-spacing: 3px
+    line-height: 40px
+    text-decoration: none
+    color: $primary-black
+    &_active
+      font-weight: bold
+
+  
