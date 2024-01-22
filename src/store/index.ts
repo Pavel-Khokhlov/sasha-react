@@ -1,5 +1,5 @@
 import { createContext, useContext } from "react";
-import { GlobalUIStore } from './globalUI';
+import { GlobalUIStore } from "./globalUI";
 // import { SettingsStore } from './settings';
 
 export class RootStore {

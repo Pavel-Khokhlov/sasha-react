@@ -1,6 +1,6 @@
 export const SASHA_THEME = "sasha.theme";
 
-export type ThemeName = 'light' | 'dark';
+export type ThemeName = "light" | "dark";
 
 export interface ThemeProps {
   name: ThemeName;
@@ -20,8 +20,8 @@ export interface ThemeProps {
 }
 
 export enum Theme {
-  LightTheme = 'light',
-  DarkTheme = 'dark',
+  LightTheme = "light",
+  DarkTheme = "dark",
 }
 
 export const themes = {

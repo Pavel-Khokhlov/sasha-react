@@ -1,7 +1,7 @@
-import React from 'react';
-import './App.css';
-import Header from '../Header/Header';
-import MenuModal from '../modals/MenuModal';
+import React from "react";
+import "./App.css";
+import Header from "../Header/Header";
+import MenuModal from "../modals/MenuModal";
 
 const App = () => {
   return (
@@ -10,6 +10,6 @@ const App = () => {
       <MenuModal />
     </div>
   );
-}
+};
 
 export default App;

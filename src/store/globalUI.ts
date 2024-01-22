@@ -11,7 +11,7 @@ export class GlobalUIStore {
   settingsLoading = false;
   isFeedbackModalShown = false;
   scrollToPosition = 0;
-  isMenuModalShow: boolean = false;
+  isMenuModalShow = false;
   theme: ThemeProps = this.setLocalTheme();
 
   constructor(rootStore: RootStore) {
@@ -24,14 +24,15 @@ export class GlobalUIStore {
   }
 
   setLocalTheme() {
+    const root = document.querySelector("#root");
     const value = localStorage.getItem(SASHA_THEME);
     if (!value) {
       localStorage.setItem(SASHA_THEME, Theme.LightTheme);
+      root?.setAttribute('data-theme', Theme.LightTheme)
       return themes[Theme.LightTheme];
     } else {
-      return themes[
-        value === "light" ? Theme.LightTheme : Theme.DarkTheme
-      ];
+      root?.setAttribute('data-theme', value === "light" ? Theme.LightTheme : Theme.DarkTheme)
+      return themes[value === "light" ? Theme.LightTheme : Theme.DarkTheme];
     }
   }
 

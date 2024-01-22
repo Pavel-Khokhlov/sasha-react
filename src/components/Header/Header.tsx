@@ -21,19 +21,19 @@ const Header = observer(() => {
   const logoStyle = {
     width: logoSize,
     height: logoSize,
-  }
-  const headerStyle = {
-    background: globalUIStore.theme.headerColor,
-  };
-
-  const titleStyle = {
-    color: globalUIStore.theme.textColor,
   };
 
   return (
-    <header className="header" style={headerStyle}>
-      <img src={PsiLogo} alt="логотип саша душа" style={logoStyle} className="header__logo" />
-      <p className="header__name" style={titleStyle}>Александра Родионова</p>
+    <header className="header">
+      <img
+        src={PsiLogo}
+        alt="логотип саша душа"
+        style={logoStyle}
+        className="header__logo"
+      />
+      <p className="header__name">
+        Александра Родионова
+      </p>
       <Navigation location="_header" />
       <Button
         isOpen={globalUIStore.isMenuModalShow}

@@ -1,5 +1,7 @@
 .header
-    position: relative
+    position: fixed
+    top: 0
+    width: 100%
     z-index: 10
     height: min(80px, 15vw)
     display: flex
@@ -11,10 +13,13 @@
     padding: 0 min(50px, 5vw)
     display: flex
     flex-direction: row
+    background: var(--background-color)
+    box-sizing: border-box
     &__logo
         pointer-events: none
         margin-right: min(20px, 3vw) 
     &__name
         margin: 0
         font-size: min(18px, 5vw)
+        color: var(--text-color)
 
