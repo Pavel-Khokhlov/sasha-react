@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sasha-react/static/css/main.73a1a872.css",
-    "main.js": "/sasha-react/static/js/main.7b4db4bb.js",
+    "main.css": "/sasha-react/static/css/main.77148ad3.css",
+    "main.js": "/sasha-react/static/js/main.3a30893f.js",
     "static/js/787.2f5d4a73.chunk.js": "/sasha-react/static/js/787.2f5d4a73.chunk.js",
     "static/media/Splash-Regular.ttf": "/sasha-react/static/media/Splash-Regular.9313a8c93be64cb7914c.ttf",
     "static/media/Festive-Regular.ttf": "/sasha-react/static/media/Festive-Regular.c49acafb1c564d16d27a.ttf",
@@ -9,13 +9,15 @@
     "static/media/Roboto-Regular.ttf": "/sasha-react/static/media/Roboto-Regular.a8d6ac03c7b96b7acb62.ttf",
     "static/media/Anton-Regular.ttf": "/sasha-react/static/media/Anton-Regular.db746a1872bfcd092bf8.ttf",
     "static/media/sd.png": "/sasha-react/static/media/sd.602edd3e0d379f85694a.png",
+    "static/media/sun.svg": "/sasha-react/static/media/sun.8f8e5e20ea463221c186e1ba1957e310.svg",
+    "static/media/moon.svg": "/sasha-react/static/media/moon.0a3df646dda9b77af13e5a6947039321.svg",
     "index.html": "/sasha-react/index.html",
-    "main.73a1a872.css.map": "/sasha-react/static/css/main.73a1a872.css.map",
-    "main.7b4db4bb.js.map": "/sasha-react/static/js/main.7b4db4bb.js.map",
+    "main.77148ad3.css.map": "/sasha-react/static/css/main.77148ad3.css.map",
+    "main.3a30893f.js.map": "/sasha-react/static/js/main.3a30893f.js.map",
     "787.2f5d4a73.chunk.js.map": "/sasha-react/static/js/787.2f5d4a73.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.73a1a872.css",
-    "static/js/main.7b4db4bb.js"
+    "static/css/main.77148ad3.css",
+    "static/js/main.3a30893f.js"
   ]
 }
