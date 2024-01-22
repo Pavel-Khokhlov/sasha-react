@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/sasha-react/static/css/main.77148ad3.css",
+    "main.css": "/sasha-react/static/css/main.c04c4cab.css",
     "main.js": "/sasha-react/static/js/main.3a30893f.js",
     "static/js/787.2f5d4a73.chunk.js": "/sasha-react/static/js/787.2f5d4a73.chunk.js",
     "static/media/Splash-Regular.ttf": "/sasha-react/static/media/Splash-Regular.9313a8c93be64cb7914c.ttf",
@@ -12,12 +12,12 @@
     "static/media/sun.svg": "/sasha-react/static/media/sun.8f8e5e20ea463221c186e1ba1957e310.svg",
     "static/media/moon.svg": "/sasha-react/static/media/moon.0a3df646dda9b77af13e5a6947039321.svg",
     "index.html": "/sasha-react/index.html",
-    "main.77148ad3.css.map": "/sasha-react/static/css/main.77148ad3.css.map",
+    "main.c04c4cab.css.map": "/sasha-react/static/css/main.c04c4cab.css.map",
     "main.3a30893f.js.map": "/sasha-react/static/js/main.3a30893f.js.map",
     "787.2f5d4a73.chunk.js.map": "/sasha-react/static/js/787.2f5d4a73.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.77148ad3.css",
+    "static/css/main.c04c4cab.css",
     "static/js/main.3a30893f.js"
   ]
 }
