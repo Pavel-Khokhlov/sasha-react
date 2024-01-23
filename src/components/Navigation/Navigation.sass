@@ -1,8 +1,8 @@
 @import ../../sass/index
 
 .nav
-    &._header
-        display: flex
+    display: flex
+    &._header 
         gap: min(20px, 4vw)
         margin-left: auto
         font-size: min(20px, 5vw)
@@ -10,3 +10,20 @@
         color: var(--text-color)
         @media screen and (max-width: 1000px)
             display: none
+    &._modal
+        flex-direction: column
+        align-items: center
+        gap: min(30px, 5vw)
+        color: var(--text-color)
+    &__link
+        background: transparent
+        font-size: min(20px, 5vw)
+        color: var(--text-color)
+        cursor: pointer
+        &._header
+            border: none
+        &._modal
+            width: 50vw
+            height: 50px
+            border-radius: 25px
+            border: 1px solid var(--text-color)

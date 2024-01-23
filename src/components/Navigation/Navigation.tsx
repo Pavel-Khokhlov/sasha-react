@@ -11,15 +11,15 @@ interface NavigationProps {
 
 const Navigation = observer(({ location }: NavigationProps) => {
   const navigationClass = `nav ${location}`;
-  const navigationLinkClass = `nav ${location} `;
+  const linkClass = `nav__link ${location} `;
 
   return (
     <nav className={navigationClass}>
       {navLink.map((link) => {
         return (
-          <p className={navigationLinkClass} key={link.title}>
+          <button className={linkClass} key={link.title}>
             {link.title}
-          </p>
+          </button>
         );
       })}
       <ThemeSwitcher />

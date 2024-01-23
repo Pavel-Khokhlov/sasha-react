@@ -1,12 +1,20 @@
 .menu
     position: absolute
+    top: 0
+    left: 0
+    bottom: 0
+    right: 0
     z-index: 5
     width: 100vw
-    background: lightgrey
+    background: var(--background-color)
     height: 100vh
     transition: all 0.3s ease
     pointer-events: none
     opacity: 0
+    display: flex
+    justify-content: center
+    align-items: center
+    box-sizing: border-box
     &._active
        pointer-events: all
        opacity: 1
