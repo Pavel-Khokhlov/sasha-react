@@ -1,23 +1,26 @@
 {
   "files": {
-    "main.css": "/sasha-react/static/css/main.4bd545ea.css",
-    "main.js": "/sasha-react/static/js/main.ac5b5c25.js",
+    "main.css": "/sasha-react/static/css/main.9a8fe549.css",
+    "main.js": "/sasha-react/static/js/main.bca8d0aa.js",
     "static/js/787.2f5d4a73.chunk.js": "/sasha-react/static/js/787.2f5d4a73.chunk.js",
     "static/media/Splash-Regular.ttf": "/sasha-react/static/media/Splash-Regular.9313a8c93be64cb7914c.ttf",
     "static/media/Festive-Regular.ttf": "/sasha-react/static/media/Festive-Regular.c49acafb1c564d16d27a.ttf",
     "static/media/Praise-Regular.ttf": "/sasha-react/static/media/Praise-Regular.c250c7167439a804dda6.ttf",
+    "static/media/Italianno-Regular.ttf": "/sasha-react/static/media/Italianno-Regular.af758e9e36a2222b1130.ttf",
     "static/media/Roboto-Regular.ttf": "/sasha-react/static/media/Roboto-Regular.a8d6ac03c7b96b7acb62.ttf",
     "static/media/Anton-Regular.ttf": "/sasha-react/static/media/Anton-Regular.db746a1872bfcd092bf8.ttf",
-    "static/media/sd.png": "/sasha-react/static/media/sd.602edd3e0d379f85694a.png",
+    "static/media/Yesteryear-Regular.ttf": "/sasha-react/static/media/Yesteryear-Regular.d873d643c24200996f8c.ttf",
+    "static/media/MrDeHaviland-Regular.ttf": "/sasha-react/static/media/MrDeHaviland-Regular.5f7dc1c382552ee3a6c0.ttf",
+    "static/media/Sofia-Regular.ttf": "/sasha-react/static/media/Sofia-Regular.eb3c6380c556580d1e8f.ttf",
     "static/media/sun.svg": "/sasha-react/static/media/sun.8f8e5e20ea463221c186e1ba1957e310.svg",
     "static/media/moon.svg": "/sasha-react/static/media/moon.0a3df646dda9b77af13e5a6947039321.svg",
     "index.html": "/sasha-react/index.html",
-    "main.4bd545ea.css.map": "/sasha-react/static/css/main.4bd545ea.css.map",
-    "main.ac5b5c25.js.map": "/sasha-react/static/js/main.ac5b5c25.js.map",
+    "main.9a8fe549.css.map": "/sasha-react/static/css/main.9a8fe549.css.map",
+    "main.bca8d0aa.js.map": "/sasha-react/static/js/main.bca8d0aa.js.map",
     "787.2f5d4a73.chunk.js.map": "/sasha-react/static/js/787.2f5d4a73.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4bd545ea.css",
-    "static/js/main.ac5b5c25.js"
+    "static/css/main.9a8fe549.css",
+    "static/js/main.bca8d0aa.js"
   ]
 }
